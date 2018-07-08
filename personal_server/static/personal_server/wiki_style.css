@@ -1,0 +1,29 @@
+body{
+  background-color:grey;
+}
+
+.image1{
+  width:20%;
+  margin: auto;
+}
+
+button{
+  margin:10px;
+}
+
+.form-control{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
+#output{
+  margin-top:10px;
+  color:white;
+  background-color:black;
+}
+
+.myList{
+  margin:10px;
+}

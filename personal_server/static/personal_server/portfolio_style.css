@@ -1,0 +1,101 @@
+.nav-pills{ 
+font-size:1.5em;
+background-color:black;
+opacity:.7;
+margin-bottom:10%;
+font-family:lobster;}
+
+.btn-default{
+  background-color:black;
+  color:white;
+  border-color:white;
+  font-size:1.5em;
+}
+
+.btnList{
+  margin-top:10px;
+}
+
+.nested-text{
+  padding-top:100px;
+  background-color:black;
+  opacity:.9;
+  padding:0px;
+  width:50%;
+  margin-top:15%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:10px;
+  
+}
+
+h1{
+  font-family:lobster;
+  font-size: 4.5vw;
+  margin-bottom:20px;
+  
+}
+
+.page-one{
+ background:url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=9d40ed55e2929fabf5e2fd86af5fe5e0");
+  background-size:cover;
+  height:700px;
+  <!--margin-top:-10%;-->
+}
+}
+
+.page-two{
+  background:grey;
+  color:black;
+ 
+}
+.my-info{
+  font-size:2.5vw;
+  font-family:;
+  padding:20px;
+  font-weight: 500;
+}
+
+.forth-page{
+  background:grey;
+  color:black;
+}
+
+.mail-image{
+  width:5%;
+}
+.my-image{
+  border: 5px solid black;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top:10px;
+}
+#mail1{
+ margin-right:40px;
+ margin-top:30px;
+}
+
+.contact{
+  font-size:3.5vw;
+}
+.project-image{
+  max-width:60%;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+
+.project-text{
+ font-size:2.5vw;
+ margin-right:40px;
+ margin-left:40px; 
+}
+
+.page-three{
+  padding-bottom:20px;
+  background-color:#D3D3D3;
+}
+
+
+.titles{
+  font-size:40px;
+}

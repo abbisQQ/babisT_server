@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ranchers');
+
+body{
+  background-color:#B0E0E6;
+  font-family: 'Ranchers', serif;
+  
+  
+}
+
+
+h1{
+  margin-bottom:2vw;
+}
+
+.btn{
+  width:10vw;
+  height:10vw;
+  margin-bottom:0.2vw;
+  margin-left:0.1vw;
+  font-size:5vw;
+  font-family: 'Ranchers', serif;
+}
+
+.option{
+  font-size:2vw;
+  margin-left:5vw;
+  margin-right:5vw;
+}

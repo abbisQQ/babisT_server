@@ -1,0 +1,40 @@
+body{
+  background-color:black;
+  font-family:"Times New Roman";
+}
+.main-div{
+  padding:5px;
+}
+h1{
+  font-size:2.5em;
+  color:white;
+}
+
+p{
+  color:white;
+  font-family:"Times New Roman";
+  font-style:Italic;
+  font-size:1.2em;
+}
+
+button{
+  margin:5px;
+}
+
+.quotes{
+  background-color:grey;
+  width:70%;
+  margin-right:auto;
+  margin-left:auto;
+  border-color:white;
+  border-style:solid;
+  border-radius:5px;
+  margin-top:15px;
+  padding:20px;
+  height:auto;
+  color:black;
+  font-style:italic;
+  font-size:1.7em;
+  
+  
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+{% load staticfiles %}
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather Project</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="{% static 'personal_server/weather.css' %}"/>
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid text-center">
+ 
+  <h1 class="col-xs-12">Local Weather App</h1>
+   <div class="row info">
+    
+ <div class="col-xs-12  "><h2 class="icon"></h2></div>      
+     
+ <div class="col-xs-12  "><h2 class="city">Location:Loading</h2></div>          
+     <div class="col-xs-12 info" ><h2 class=" temper">Temp:Loading</h2><button class="temper-value">C</button ></div>
+   
+     <div class="col-xs-12 info"><h2 class="wind">Wind:Loading</h2><button               class="wind-button">km/h</button></div>
+     
+    <div class="col-xs-12 info "><h2 class="description">Description:Loading</h2></div> 
+     
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+     <script src= "{% static 'personal_server/weather.js' %}" type=text/javascript></script>
+
+
+
+
+</body>
+
+</html>

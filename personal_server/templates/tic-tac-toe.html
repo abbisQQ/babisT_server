@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+{% load staticfiles %}
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+     <link rel="stylesheet" href="{% static 'personal_server/tic-tac-toe-style.css' %}"/>
+
+
+  
+</head>
+
+<body>
+
+  
+<div class="container">
+  <div class="row">
+    <h1 class="text-center">Tic Tac Toe</h1>
+   
+  </div>
+  <div class="row text-center">
+     <button  class="btn-default option" id="xOption">X</button>
+    <button  class="btn-default option" id="0Option">0</button>
+  </div>
+  <div class="row text-center">
+    <button class="btn btn-default" id="one"></button>
+    <button class="btn btn-default" id="two"></button>
+    <button class="btn btn-default" id="three"></button>
+  </div>
+  <div class="row text-center">
+    <button class="btn btn-default" id="four"></button>
+    <button class="btn btn-default" id="five"></button>
+    <button class="btn btn-default" id="six"></button>
+  </div>
+   <div class="row text-center">
+    <button class="btn btn-default" id="seven"></button>
+    <button class="btn btn-default" id="eight"></button>
+    <button class="btn btn-default" id="nine"></button>
+  </div>
+   
+    <div>
+  <div class="row text-center">
+    <h2 class="wins">Wins:0</h2>
+    <h2 class="draws">Draws:0</h2>
+    <h2 class="losses">losses:0</h2>
+  </div>
+  
+  <div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+     <script src= "{% static 'personal_server/tic-tac-toe-index.js' %}" type=text/javascript></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+{% load staticfiles %}
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  
+  
+  
+      <link rel="stylesheet" href="{% static 'personal_server/simon_style.css' %}"/>
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="header">
+    <h1></h1>
+  </div>
+  <div class="simonBoard ">
+      <div id="0" class="pad green"></div>
+      <div id="1" class="pad red"></div>
+      <div id="2" class="pad yellow"></div>
+      <div id="3" class="pad blue"></div>   
+    <div class="board-controls">
+      <div class="title">SIMON</div>
+      <div class="display inline">00</div>
+      <div class="start inline">START</div>
+      <div class="strict inline">STRICT</div>
+      <div class="switch-container">
+        <p class="off inline">OFF</p>
+        <div class="switch outter-switch inline"><div class="inner-switch"></div></div>
+        <p class="on inline">ON</p>
+      </div>
+    </div>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script src= "{% static 'personal_server/simon_index.js' %}" type=text/javascript></script>
+
+
+
+
+</body>
+
+</html>
